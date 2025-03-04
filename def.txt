@@ -1,0 +1,53 @@
+(1). bcrypt is a library used for hashing passwords securely. When users register or change their passwords, 
+their passwords are hashed using bcrypt before being stored in the database. Hashing is a one-way process 
+that converts the password into a fixed-length string of characters, making it computationally infeasible 
+to reverse the process and obtain the original password.
+
+
+(2). cookie-parser is a middleware for Express.js that parses cookies attached to the client's request object. 
+It extracts the cookie data, parses it into a JavaScript object, and attaches it to the request object as req.cookies.
+
+
+dotenv is a popular Node.js library used for loading environment variables from a .env file into process.env. 
+It allows developers to define environment-specific configurations (such as API keys, database URIs, 
+and other sensitive information) in a .env file and access them within their Node.js applications.
+
+
+--jsonwebtoken is a Node.js library used for generating and verifying JSON Web Tokens (JWTs). 
+JWTs are compact, URL-safe tokens that are used for securely transmitting information between parties. 
+They are commonly used for authentication and authorization in web applications.
+--jsonwebtoken is widely used for implementing authentication and authorization mechanisms in web applications. 
+It provides a secure and efficient way to transmit information between parties in a stateless manner, making 
+it suitable for use in distributed systems and APIs.
+
+
+nodemailer is a Node.js module used for sending emails from Node.js applications. 
+It provides an easy-to-use API for sending various types of emails, including plain text, HTML, attachments, and more. 
+nodemailer supports both traditional SMTP and modern services like Gmail, Outlook, and SendGrid.
+
+
+serve-favicon is an Express.js middleware used to serve a favicon (short for "favorite icon") for your web application. 
+A favicon is a small image (usually 16x16 pixels) that appears in the browser tab and next to the website's name in 
+bookmarks. It helps users identify and distinguish your website from others.
+
+
+validator is a library commonly used in Node.js applications for validating and sanitizing input data. 
+It provides a wide range of functions to validate various types of data, such as strings, numbers, emails, 
+URLs, and more. Additionally, it offers methods for sanitizing data to prevent cross-site scripting (XSS) attacks.
+--Validation Functions: validator provides a wide range of validation functions for different types of data, such as:
+**isEmail(): Checks if a string is a valid email address.
+**isURL(): Checks if a string is a valid URL.
+**isNumeric(): Checks if a string contains only numbers.
+**isDate(): Checks if a string is a valid date.
+**And many more
+
+
+axios is a popular HTTP client library for making HTTP requests from Node.js or the browser. 
+It supports all major HTTP methods, such as GET, POST, PUT, DELETE, and PATCH, and provides a simple 
+and intuitive API for performing asynchronous requests.
+
+
+socket.io
+it enables real time,bidirectional and event based communication between clients and server.
+It builts on top of the websockets protocol but provide fallback option for 
+environment where websocket are not supported.
